@@ -1,19 +1,20 @@
 
 body {
     margin: 0%;
+    font-family: 'Arimo', sans-serif;
 }
 
 div{
-    margin: 0;
-    padding: 0;
+
 }
 h1{
-    margin:  0;
-    padding: 0;
 }
 p{   
     margin:  0;
     padding: 0; 
+}
+span{
+    padding-left: 3%;
 }
 
 
@@ -25,22 +26,20 @@ p{
     background-color: rgb(184, 186, 187);
     width: 100%;
     height: 50px;
+    
 }
 .scroll-bar-text{
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    font-family: "Segoe UI", Frutiger, Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 150%;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 700;
-    line-height: 15.4px; 
-    color: #6c567b
+    color: #363062;
+    text-align: right;
+    margin-right: 15%;
+    
 }
 
 .top-container {
-    padding-left: 10vh;    
+    text-align: center;
     padding-top: 30vh;
 }
 
@@ -50,26 +49,37 @@ p{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     margin: 0;
     padding: 0;
 }
 
-.middle-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.middle-container {    
+    background-color: #96afaf;
+    height: 100vh;
+    width: 100%;
 }
 
 .bottom-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    background-color: #fde2e2;
+    height: 100vh;
+    width: 100%;
 }
 
 .heading-top {
     margin: 0%; 
-    padding-left: 100vh;
+    font-family: 'Sacramento', cursive;
+    color: #363062;
+    font-size: 400%;
+}
+
+.heading-top1 {
+    margin: 0%; 
+    font-family: 'Arimo', sans-serif;
+    font-size: large;
+    color: #363062;
+    font-weight: bold;
+
 }
 
 /************************ ID selectors *****************************/
