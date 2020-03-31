@@ -1,0 +1,64 @@
+
+body {
+    margin: 0%;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:  0;
+    padding: 0;
+}
+p{   
+    margin:  0;
+    padding: 0; 
+}
+
+
+/************************ Class selectors *****************************/
+
+.top-container {
+    padding-left: 10vh;    
+    padding-top: 30vh;
+}
+
+.background-image{    
+    background-image: url('../image/v2iksem.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.heading-top {
+    margin: 0%; 
+    padding-left: 100vh;
+}
+
+/************************ ID selectors *****************************/
+
+#globe {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+border-color: #f67280;
+    color: #6c567b
