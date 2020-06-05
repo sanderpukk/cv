@@ -2,6 +2,7 @@
 body {
     margin: 0%;
     font-family: 'Arimo', sans-serif;
+    color: #363062;
 }
 
 div{
@@ -10,14 +11,37 @@ div{
 h1{
     font-family: 'Arimo', sans-serif;
 }
+h2{
+    font-family: 'Arimo', sans-serif;
+    padding-bottom: 10px;
+}
 p{   
     font-family: 'Arimo', sans-serif;
     margin:  0;
     padding: 0; 
+    line-height: 2;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 span{
     padding-left: 3%;
 }
+
+hr {
+    border: dotted #363062 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 
 
 /************************ Class selectors *****************************/
@@ -40,6 +64,11 @@ span{
     
 }
 
+.intro {
+    width: 20%;
+    margin: auto;
+}
+
 .top-container {
     text-align: center;
     padding-top: 30vh;
@@ -58,8 +87,9 @@ span{
 
 .middle-container {    
     text-align: center;
-    background-color: #96afaf;
+    background-color: #ffffff;
     font-family: 'Arimo', sans-serif;
+    color: #363062;
 }
 
 
@@ -67,38 +97,125 @@ span{
     border-radius: 30%;
     width: 10%;
     height: auto;
+    margin-top: 5%;
+}
+.skills {
+    color: black;
+}
+
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: 50px auto 100px auto;
+    line-height: 2;
+}
+.skill-heading{
+    text-align: left;
+    color: #363062;
 }
 
 .postgres-skill{
-    width: 10%;
+    width: 15%;
     height: auto;
+    text-align: left;
+    float: left;
+    margin-right: 20px;
 }
 .qgis-skills{
+    width: 15%;
+    height: auto;
+    float: inline-end;
+}
+
+.programming-skills{
     width: 10%;
     height: auto;
+    text-align: left;
+    float: left;
+    margin-right: 20px;
 }
 
 .bottom-container {
+    padding-top: 1em;
     text-align: center;
-    background-color: #fde2e2;
+    background-color: rgb(184, 186, 187);
     font-family: 'Arimo', sans-serif;
+}
+.footer-link{
+    padding: 2%;
+    font-family: 'Arimo', sans-serif;
+    color: #363062;    
+}
+.footer-link:hover{
+    color: #796bdf;  
+}
+
+.copyright{
+    margin-top: 1%;
+    padding-bottom: 1%;
 }
 
 .heading-top {
     margin: 0%; 
+    margin-left: 10%;
     font-family: 'Sacramento', cursive;
     color: #363062;
-    font-size: 400%;
+    font-size: 7rem;
 }
 
 .heading-top1 {
     margin: 0%; 
+    margin-left: 10%;
     font-family: 'Arimo', sans-serif;
     font-size: large;
     color: #363062;
-    font-weight: bold;
+    font-weight: bold;  
+    font-size: 2.5rem;
 
 }
+.contact-me{
+    line-height: 1;
+}
+
+
+
+.BUTTON_GNW {
+    background: #48C3C3;
+    background-image: -webkit-linear-gradient(top, #48C3C3, rgb(67, 179, 179));
+    background-image: -moz-linear-gradient(top, #48C3C3,rgb(67, 179, 179));
+    background-image: -ms-linear-gradient(top, #48C3C3,rgb(67, 179, 179));
+    background-image: -o-linear-gradient(top, #48C3C3, rgb(67, 179, 179));
+    background-image: linear-gradient(to bottom, #48C3C3, rgb(67, 179, 179));
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #616060;
+    border: solid rgb(53, 195, 214) 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1%;
+ }
+ 
+ .BUTTON_GNW:hover {
+    border: solid #337FED 1px;
+    background: #23BAE7;
+    background-image: -webkit-linear-gradient(top, #23BAE7, #1A99BF);
+    background-image: -moz-linear-gradient(top, #23BAE7, #1A99BF);
+    background-image: -ms-linear-gradient(top, #23BAE7, #1A99BF);
+    background-image: -o-linear-gradient(top, #23BAE7, #1A99BF);
+    background-image: linear-gradient(to bottom, #23BAE7, #1A99BF);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+ }
 
 /************************ ID selectors *****************************/
 
