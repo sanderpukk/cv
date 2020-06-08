@@ -136,7 +136,7 @@ html {
 }
 
 .bottom-container {
-    padding-top: 1em;
+    padding-top: 2em;
     text-align: center;
     background-color: rgb(184, 186, 187);
     font-family: 'Arimo', sans-serif;
@@ -153,6 +153,8 @@ html {
 .copyright{
     margin-top: 1%;
     padding-bottom: 1%;
+    font-size: 0.8rem;
+    color: #b6f5f5;
 }
 
 .heading-top {
