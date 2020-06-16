@@ -1,0 +1,19 @@
+
+.body{
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+
+
+/* Styles */
+
+.bg-danger {
+    background-color: #e42737 !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: 'Arimo', sans-serif;
+}
