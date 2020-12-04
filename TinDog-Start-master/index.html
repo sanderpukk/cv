@@ -112,10 +112,6 @@
 
     
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
     <div id="carouselExampleControls" class="carousel slide" >
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -157,14 +153,20 @@
   <!-- Pricing -->
 
   <section id="pricing">
+
+  <div class="container-fluid"> 
           
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h1 class="display-4">A Plan for Every Dog's Needs</h1>
       <p class="lead">Simple and affordable price plans for your and your dog.</p>
-    </div>
+  </div>
 
-    <div class="card-deck mb-3 text-center">
-      <div class="card mb-4 box-shadow">
+
+  <!-- <div class="row" id = "price-tags"> -->
+  <div class="card-deck text-center">
+  <!-- <div class="col-md-4"> -->
+    
+      <div class="card col-md-6  box-shadow">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Chihuahua</h4>
         </div>
@@ -176,9 +178,13 @@
             <li>Unlimited App Usage</li>
           </ul>
           <button type="button" class="btn btn-lg btn-block btn-outline-danger">Sign up for free</button>
-        </div>
+        <!-- </div> -->
       </div>
-      <div class="card mb-4 box-shadow">
+    
+    </div>
+    <!-- <div class="col-md-4 "> -->
+
+      <div class="card col-md-6 box-shadow">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Labrador</h4>
         </div>
@@ -191,8 +197,11 @@
           </ul>
           <button type="button" class="btn btn-lg btn-block btn-outline-danger">Sign up for $49 per month</button>
         </div>
-      </div>
-      <div class="card mb-4 box-shadow">
+      <!-- </div> -->
+  </div>
+
+      <!-- <div class="col-md-4 "> -->
+      <div class="card col-md-6 box-shadow">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">Mastiff</h4>
         </div>
@@ -207,7 +216,10 @@
         </div>
       </div>
     </div>
-  
+  <!-- </div> -->
+<!-- </div> -->
+
+</div>
 
 
   </section>
@@ -217,10 +229,15 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 id="catch-phrase">Find the True Love of Your Dog's Life Today.</h3>
+    <div class="row">
+      <div class="col-md-6 align-self-center" id="google-play">
+        <button type="btn btn-lg px-3 btn-primary"><img class="image-bottom" src="images/google-play-badge.png" alt="Google play download link" height="70px">  </button>
+      </div>
+      
+        <div class="col-md-6 align-self-center" id="windows10">
+        <button type="btn btn-lg px-3 btn-primary"><img class="image-bottom" src="images/256x256.png" alt="Windows download link" height="140px" > </button>
+      </div>
   </section>
 
 
@@ -228,7 +245,12 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+
+    <span id="footer-icons">
+      <i class="fab fa-facebook-f fa-fw footer-icons-margin"></i> <i class="fab fa-twitter fa-fw footer-icons-margin"></i> <i class="fab fa-instagram  fa-fw footer-icons-margin"></i>
+    </span>
+
+    <p id="copyright">© Copyright 2020 TinDog</p>
 
   </footer>
 

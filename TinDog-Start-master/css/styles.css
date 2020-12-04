@@ -127,24 +127,84 @@ h3{
     width: 50px !important;
    }
 
-   .card-title{
-       color: #54595e ;
-   }
-   .card-deck{
-       padding: 50px 500px;
-       font-family: 'Ubuntu', sans-serif;
-   }
 
-   .card-header{
-       background-color: #f04962;
-   }
-   .my-0{
-       font-size: 2rem;       
-   }
-   .card-deck .card{
-       margin: 10px 80px 10px;
-   }
+#pricing, .container-fluid{
+    text-align: center;
+}
 
-   .display-4{
-       color: #54595e ;
-   }
+#price-tags{
+    margin-left: auto;
+}
+
+.card-title{
+    color: #54595e ;
+}
+.card-deck{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15%;      
+    margin-right: 15%;
+    width: auto
+    
+}
+
+.card-header{
+    background-color: #f04962;
+}
+.my-0{
+    font-size: 2rem;       
+}
+.card-deck .card{
+    margin: 10px 80px 10px;
+    text-align: center;
+}
+
+.display-4{
+    color: #54595e ;
+}
+
+#cta{
+    background-color: #f04962;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+ #google-play{
+     text-align: right;
+ }
+ #windows10{
+     text-align: left;
+ }
+
+
+
+@media (max-width:900px) {
+
+    #google-play{
+        text-align: center;
+    }
+    #windows10{
+        text-align: center;
+    }
+}
+
+#catch-phrase{
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#copyright{
+    padding: 20px 0px;
+}
+
+
+#footer-icons{
+    font-size: 3rem;
+}
